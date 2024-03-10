@@ -1,0 +1,26 @@
+def abi(msg):#parameter or argument function
+    print("message:",msg)
+abi("where is hanyeaa")
+print("==even or odd==")
+def oddoreven(num):
+    if(num%2==0):
+        print("even")
+    else:
+        print("odd")
+a=int(input("enter the value of a:"))
+oddoreven(a)
+print("===pass or fail==")
+def passorfail(mark):
+    if(mark>35):
+        print("PASS")
+    else:
+        print("FAIL")
+a=int(input("enter the marks:"))
+passorfail(a)
+print("==range==")
+def Printrange(r1,r2):
+    for i in range(r1,r2):
+        print(i)
+a=int(input("values of a:"))
+b=int(input("values of b:"))
+Printrange(a,b)
